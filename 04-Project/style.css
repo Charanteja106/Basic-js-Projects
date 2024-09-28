@@ -1,0 +1,51 @@
+
+
+body{
+    height: 100vh;
+    background: url(https://images.pexels.com/photos/1147124/pexels-photo-1147124.jpeg?auto=compress&cs=tinysrgb&w=400) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 60%;
+    height: 250px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+#timer{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    margin: 0 10px;
+    border: none;
+}
+button i{
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    width: 50px;
+}
+
+#play{
+    background-color: rgb(63, 106, 20);
+
+}
+
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+}
